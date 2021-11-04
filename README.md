@@ -1,6 +1,6 @@
 # Python-Schoool
-It's study projects 
-\n Hi guys it's my first project ... 
+It's study projects !
+Hi guys it's my first project ... 
 This is electronic diary
 
 
