@@ -17,7 +17,7 @@ for i in range(n):
       g += 1
      
       l += 1
-  else if mark == 4:
+  else mark == 4:
       
       l += 1
   elif mark == 2:
