@@ -9,6 +9,8 @@ for i in range(n):
         
   sub = str(input("Урок: "))
   mark = int(input("Оценка :"))
+
+  k += mark
   
   if mark == 5 :
       o += 1
@@ -23,7 +25,7 @@ for i in range(n):
   elif mark == 2:
       
       l += 1
-  mark += k
+  
 
 T = k/l
               
