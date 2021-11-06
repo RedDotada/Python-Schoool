@@ -12,18 +12,18 @@ for i in range(n):
   
   if mark == 5 :
       o += 1
-      k += 5
       l += 1
   elif mark == 3:
       g += 1
-      k += 3
+     
       l += 1
-  if mark == 4:
-      k += 4
+  else if mark == 4:
+      
       l += 1
   elif mark == 2:
-      k += 2
+      
       l += 1
+  mark += k
 
 T = k/l
               
