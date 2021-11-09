@@ -2,7 +2,7 @@ n = int(input("Сколько уроков? : " ))
 o = 0
 g = 0
 k = 0
-l = 0
+
 T = 0
         
 for i in range(n):
@@ -14,20 +14,15 @@ for i in range(n):
   
   if mark == 5 :
       o += 1
-      l += 1
+
   elif mark == 3:
       g += 1
-     
-      l += 1
-  elif mark == 4:
-      
-      l += 1
-  elif mark == 2:
-      
-      l += 1
+
+
+
   
 
-T = k/l
+T = k/n
               
 print("~~~-=- Пяторок - " + str(o) + " !-=-~~~")
 print("~~~-=- Тройки, это плохо... - " + str(g) + " !-=-~~~")
